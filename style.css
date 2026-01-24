@@ -106,3 +106,24 @@ nav img {
   padding: 4px;
   border-radius: 4px;
 }
+/* Mobile menu fix */
+@media (max-width: 768px) {
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  nav img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    width: 45%;
+    margin: 6px 2%;
+    display: inline-block;
+    text-align: center;
+  }
+}
