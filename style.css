@@ -110,6 +110,7 @@ nav img {
 @media (max-width: 768px) {
 
   nav {
+    display: flex;        /* 👈 YE MISSING THA */
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
